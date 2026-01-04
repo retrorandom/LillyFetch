@@ -1,2 +1,38 @@
 # LillyFetch
 Prints infomation in minecraft chat from fastfetch or neofetch if you still use that...
+
+# Default Configuration
+
+```
+# Fetch command and arguments
+# You can use fastfetch, neofetch, or any other fetch tool
+fetch-command: "fastfetch"
+fetch-args:
+  - "-l"
+  - "none"
+
+# Cache duration in seconds (how long to cache fastfetch output)
+# Set to 0 to disable caching
+cache-duration: 60
+
+# Header message shown before the output (supports Minecraft color codes with &)
+header-message: "&6[Fastfetch info :3]"
+
+# Show cache indicator when displaying cached results
+show-cache-indicator: true
+
+# Simple configuration
+simple:
+  # Fields to display in simple mode (in order)
+  fields:
+    - os
+    - kernel
+    - uptime
+    - packages
+    - shell
+    - cpu
+    - memory
+    - disk
+    - swap
+
+```
