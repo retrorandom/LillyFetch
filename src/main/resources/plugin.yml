@@ -1,7 +1,6 @@
 name: LillyFetch
 version: '1.0.0'
 main: net.retrolilly.lillyFetch.LillyFetch
-api-version: '1.21'
 
 commands:
   neofetch:
